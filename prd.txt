@@ -1,0 +1,175 @@
+﻿Problem
+The political landscape has changed in the aftermath of the 2024 election. Now, 63% of voters hold a favorable view of the Democratic party, and the DNC is being crushed in financing compared to the RNC. At the same time, there is mass public disapproval on how the current federal government is handling many policy issues, such as crime, immigration, and the economy. However, this disapproval is not translating into political support – there is so little trust in the organizers of the Democratic party that opinion is not being turned into opposition. 
+
+
+However, there is clearly an appetite to donate to and support candidates that people individually approve of. An example of this is Zohran Mamdani in NYC, who was able to raise money effectively from grassroots donations and turned out thousands of volunteers. Independent of his politics, he provides an example of how voters are now more excited about supporting candidates than broad political parties.
+
+
+Our idea is to respond to this by giving voters a much better ability to understand where they can make political donations that have an impact. The idea is essentially a “GiveWell for politics” - the goal would be to provide information about which candidates align with a voter’s beliefs, and where their marginal dollar could be best spent to support their interests. The end product would allow users to sort by multiple metrics (margin of influence, current polling numbers, existing campaign donations, time until election, etc) and highlight candidates that would be impactful to donate to. This would hopefully achieve three goals:
+
+
+1. Funnel political donations to more impactful campaigns.
+2. Increase the trust individuals have that their donations will be impactful and align with their beliefs (hopefully increasing donations).
+3. Serve as an educational resource for voters who want to know more about the impactful political races for their chosen issues.
+________________
+
+
+Personas
+Customers: Individual citizens seeking to donate effectively to political campaigns. 
+* Most likely: individual voters who want to make effective, small-dollar donations
+* Also possible:
+   * Larger individual donors/foundations who want a structured/analytical approach to giving
+   * Groups that want access to managed data about the feasibility of political races
+Political Advocacy Groups: Groups that the change in donation infrastructure and potential revenue will impact
+* Campaigns:
+   * Candidates for federal, state, and local office
+   * Campaign managers and fundraising staff
+* Advocacy and Lobbying Groups:
+   * Issue-focused PACs and Super PACs
+   * Nonprofits promoting specific policy goals
+Service Providers:
+* Data providers (Google Civic API, OpenFEC, NCSL, Ballotpedia, etc.)
+* Technical vendors hosting data and analytics infrastructure
+Owners:
+* Platform founders and maintainers
+   * Primary focus on growth and adoption first
+   * Potential to sell or license compiled database of political goals, campaigns, and needs for consulting/analytics
+   * Alternative revenue paths (with risks): charging lobbying groups or parties for visibility, or taking a small cut of donations
+* Possible nonprofit
+________________
+Individual Citizens - Theo
+Overview
+Individual voters are everyday people who care about political issues but feel disillusioned by traditional party structures. Many distrust broad party organizations and perceive their donations as disappearing into a black box with little measurable impact. Instead, they are motivated by supporting specific candidates or causes that reflect their values. They are looking for trustworthy, transparent tools that help them cut through noise, understand where their money and time matter most, and feel that their political engagement is meaningful.
+Frustrations & Pain Points
+* Skepticism toward political parties and centralized fundraising appeals.
+* Lack of clarity on which races are “winnable” or strategically important.
+Feeling that individual donations are too small to matter.
+* Overwhelm: too many candidates, too much noise, not enough trustworthy guidance.
+How They Use the Platform
+   * Enter issue preferences and priorities (e.g., climate, healthcare, immigration).
+   * Explore candidate profiles that transparently show competitiveness, donation needs, and impact.
+   * Compare potential donation opportunities ranked by influence, margin, and strategic importance.
+   * Make informed small-dollar contributions with confidence their money is well spent.
+   * Use the educational tools to deepen their understanding of races they might not have otherwise followed.
+Core Values: Transparency, Trust, Impact
+Campaigns - Josh 
+Campaigns are central stakeholders because their survival depends on reliable flows of money and visibility. They benefit from the platform because it connects them with donors who might otherwise lack the information or motivation to give. Instead of chasing broad, low-yield fundraising lists, campaigns in competitive or strategically significant elections can be highlighted to donors aligned with their policy priorities. This lowers acquisition costs and increases the efficiency of small-dollar fundraising.
+
+
+Campaigns could use the platform by providing structured data about their candidate’s platform, endorsements, and fundraising needs. By doing so, they increase the accuracy of their profile and raise the likelihood of being recommended to donors interested in their issue positions. The platform also functions as a discovery channel: campaigns often struggle to reach out-of-district supporters who care about specific issues, and with issue-based filters they can become visible to new donor bases.
+
+
+Campaigns also gain credibility: a transparent, data-driven evaluation mechanism helps validate the competitiveness of an election to skeptical donors. For them, the platform is essentially a fundraising amplifier that increases reach, optimizes donor targeting, and builds trust through transparent evaluation.
+
+
+Campaigns’ core values: visibility, efficiency, credibility, growth
+Lobbying Groups - Varun
+Lobbyist groups aim to maximize the political efficacy of their money and ensure that their money and resources are going to candidates and causes that support their own. Unlike individual donors who may support local candidates or base their votes and donations on personal values and issues, a lobbying group will operate with certain institutional objectives (for instance, climate action or gun rights, to name a few). Lobbying groups already have more sophisticated analytics than the average voter, but often lack granular insights into where their dollars are best spent, especially in smaller election markets around the country. Additionally, these groups are often under pressure to use their resources effectively and in ways that benefit not only their institutional beliefs, but their investor’s financial interests as well.
+
+
+How They Use the Platform
+   * Lobbyists can filter for candidates that align strongly with the group’s issue positions, but may not yet be on the larger political radar or in a competitive but underfunded race.
+   * Groups can share lists with affiliated organizations like grassroots fundraisers to align messaging and avoid redundancy.
+   * Use the educational resources provided by the platform to justify spending and demonstrate strategic thinking to investors and other stakeholders.
+
+
+Core values: strategic impact, issue alignment, credibility
+________________
+Major Sections
+Main User Journey - Theo
+Jordan: Make a political donation
+ Jordan shows up and says, “I want to donate to a campaign, but I don’t know where my money matters most.”
+[Issue & values selection]
+Platform says:
+Great! Let’s start by understanding what issues matter most to you. Pick as many as you like.
+☐ Climate change
+☐ Healthcare access
+☐ Immigration reform
+☐ Economic justice
+☐ Crime & safety
+☐ Education
+Jordan checks Climate change and Economic justice.
+ Got it. We’ll prioritize candidates with strong positions on climate and economic fairness.
+[Impact preferences]
+Platform says:
+How do you want your donation to have an impact?
+ ☐ Support candidates in close races
+☐ Support candidates with track records of success
+☐ Build long-term movement infrastructure
+Jordan checks Support candidates in close races.
+ Okay. We’ll show you competitive races where your donation could tip the balance.
+[Donation strategy]
+Platform says:
+Would you prefer to:
+ ☐ Focus on a single high-impact candidate
+☐ Spread your donation across several candidates
+Jordan: Single candidate.
+ Perfect. Here are the top candidates that match your preferences.
+[List of candidate options]
+Platform displays three profiles side by side, with transparency details:
+Candidate A – Ohio’s 12th District
+   * Polling: 48% vs 50% (within margin of error)
+   * Funding: $1.2M raised vs opponent’s $3.5M
+   * Issues: Green jobs, healthcare access, labor rights
+   * Donation leverage: High (underfunded but competitive)
+   * [Visit campaign website →]
+Candidate B – Arizona’s 7th District
+   * Polling: 46% vs 49% (slightly behind)
+Funding: $900K raised vs opponent’s $1.4M
+Issues: Renewable energy, small business support, immigration reform
+Donation leverage: Medium (competitive, but less underfunded)
+   * [Visit campaign website →]
+Candidate C – Michigan’s 3rd District
+      * Polling: 49% vs 49% (tied)
+      * Funding: $2.0M raised vs opponent’s $2.1M
+      * Issues: Climate action, affordable housing, economic equity
+      * Donation leverage: Medium-High (well-funded but razor-thin margin)
+[Visit campaign website →]
+Jordan reviews the list, clicks through Candidate A’s campaign site, and feels confident.
+Jordan: I’ll donate $50 to Candidate A.
+[Confirmation & education]
+Platform says:
+Great! Your donation to Candidate A has been processed. Want to learn more about why this race is strategic?
+Jordan: Yes.
+Platform shows a clear breakdown:
+         * Polling trend: 48% vs 50% (tight race)
+         * District profile: Swing district with high youth voter turnout
+         * Donation leverage: Your contribution is part of a pool that helps close a significant funding gap
+Jordan leaves confident, informed, and more motivated to return later.
+Launch Plan - Josh
+The launch of this platform requires careful phasing to balance trust, usability, compliance, and scalability. Since political data is sensitive and campaign finance is tightly regulated, the rollout will follow five stages: internal “dogfooding,” private alpha, limited beta, restricted release, and finally general availability. 
+
+
+Dogfood. The initial phase will be internal. Founders and a small team of developers, policy analysts, and advisors will use the platform on mock data and then on a carefully selected set of real campaigns. The goal here is to stress-test the data pipelines. OpenFEC, Google Civic API, and other feeds must be pulled, cleaned, and verified. This phase might also integrate LLM-based validation to handle noisy or incomplete data. At this stage, “users” are only the internal team. The key outputs will be a working backend pipeline, an MVP front-end that demonstrates candidate pages, and a basic ranking mechanism. Success means we can reliably show donors where money might matter most, even if the interface is rudimentary. 
+
+
+Alpha. The alpha stage will invite a very small set of trusted external users—academics, political data researchers, and campaign finance professionals. The purpose is to validate usability and credibility. Alpha users will test the platform’s filtering mechanisms (by issue, competitiveness, funding levels) and provide feedback on whether the recommendations make intuitive sense. This ensures campaigns see the value in having accurate, transparent listings before public donors are involved. We will seek positive usability scores from at least 70% of testers, zero legal compliance issues flagged, and at least five campaigns participating voluntarily.
+
+
+Beta. In beta, we will expand to a small group of actual donors. These will be politically engaged individuals who already give small-dollar donations and want tools to make them more effective. Here, donation routing is enabled: users will be able to direct contributions to campaigns via links or other processors. The beta will test whether donors trust the recommendations, whether campaigns are responsive to maintaining their profiles, and whether the system increases donor satisfaction. Data integrity and compliance audits will run in parallel. At this stage, partnerships with civic tech organizations and transparency advocates will be critical for legitimacy. We will seek a majority percentage of donors reporting increased confidence in their donation impact. 
+
+
+Restricted Release. After refining based on beta feedback, the platform will move to a broader but still controlled launch. Restricted release means public sign-ups with an invite system, keeping growth deliberate while monitoring legal risk. Campaigns in competitive districts will be prioritized for onboarding. Issue-based filters will be refined. At this stage, credibility is critical: the platform must emphasize transparency in how candidate “impact scores” are calculated. Marketing will focus on education, helping donors understand how their dollars translate into political influence, rather than advocacy for any party.
+
+
+General Availability. General availability comes once the infrastructure, compliance, and trust have been validated. At this point, the system opens to all donors, campaigns, and advocacy groups. Donation routing will be robust, search and filtering adequate, and the candidate database comprehensive. A broader marketing push will emphasize the platform as a trusted hub for citizens to amplify their political donations. Scalability will be managed through cloud infrastructure and ongoing compliance partnerships.
+________________
+Measure Success Criteria - Varun
+We will measure success criteria based on factors related to a combination of monetary donation statistics and data related to search queries.
+
+
+Whom donations are going to. At its core, the goal of this project is to offer voters and individuals a way to see where their money is most useful. To this end, one metric for measuring success is analyzing the proportion of donations coming through our site that appear targeted, relative to donations outside of our side across the political spectrums. Some key aspects to note:
+         * Contested races: are a significant amount of donations facilitated by this website actually going to competitive races that have a strong effect on the outcome of the election as a whole? We want to make sure that our site is directing users to candidates who could use the money, not simply the most popular candidates or the elections in the largest districts.
+         * Candidates in need of money: elections that are already highly funded are potentially subject to diminishing returns on donations. We can measure success by measuring how much money is going to close but underfunded elections.
+         * Repeat donation rate: success means building trust in our system and converting one-time donors into politically committed voters. Thus, we want to track what percentage of donors become repeat donors, as a way of quantifying our success in creating a more informed voter population.
+
+
+Issue diversity: we want to track what issues people care about and are willing to donate money to. We would measure success by keeping track of whether users are donating for candidates because of their specific policy beliefs. Additionally, we want to allow for users to explore a spread of issues, so a measure of success would be seeing whether interests center around the most hot-button topics, or are spread around the many areas of political discourse.  We can track this in a few ways. 
+         * Values-based donations: are a significant number of donations (in both monetary value and total number of donations) going to candidates with specific actionable policy beliefs?
+         * Search criteria: Part of our success criteria revolves around a voter wanting to contribute money to candidates with specific beliefs - contributing simply to elections that are deemed to be impactful needs to be supplemented with donating to contributing to morally and politically aligned candidates. We can measure success with this by tracking user search queries to see how they are finding candidates to contribute to. Are users searching for candidates based on specific values (such as climate policy, election finance, healthcare, etc)? We can track user metrics for most common search queries to measure this.
+
+
+Educational content: We can measure how long users engage with explanatory materials about why certain races are strategically important, learn about polling trends, and more. Higher engagement with the informative aspects of the site shows us that we are successfully promoting the educational mission beyond just the monetary.
+
+
+Geographic distribution: We want to engage voters of geographically and politically diverse communities. As such, we would want to ensure that donations (in both monetary value and number of donations) are coming from geographically diverse areas and are not centered around “coastal elite” candidates or the like.
