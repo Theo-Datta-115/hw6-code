@@ -1,0 +1,135 @@
+[
+  {
+    "state": "AL",
+    "district": "04",
+    "population": 702255,
+    "median_income": 50931,
+    "college_educated_percentage": 55879
+  },
+  {
+    "state": "CA",
+    "district": "32",
+    "population": 705766,
+    "median_income": 79816,
+    "college_educated_percentage": 79399
+  },
+  {
+    "state": "CA",
+    "district": "33",
+    "population": 709488,
+    "median_income": 122270,
+    "college_educated_percentage": 196389
+  },
+  {
+    "state": "FL",
+    "district": "07",
+    "population": 781734,
+    "median_income": 70822,
+    "college_educated_percentage": 146801
+  },
+  {
+    "state": "FL",
+    "district": "22",
+    "population": 767612,
+    "median_income": 71291,
+    "college_educated_percentage": 146013
+  },
+  {
+    "state": "GA",
+    "district": "09",
+    "population": 770045,
+    "median_income": 64024,
+    "college_educated_percentage": 83534
+  },
+  {
+    "state": "GA",
+    "district": "12",
+    "population": 734110,
+    "median_income": 51850,
+    "college_educated_percentage": 65104
+  },
+  {
+    "state": "IL",
+    "district": "08",
+    "population": 720276,
+    "median_income": 80043,
+    "college_educated_percentage": 112445
+  },
+  {
+    "state": "IL",
+    "district": "09",
+    "population": 745865,
+    "median_income": 83157,
+    "college_educated_percentage": 167683
+  },
+  {
+    "state": "IL",
+    "district": "16",
+    "population": 693820,
+    "median_income": 66115,
+    "college_educated_percentage": 71474
+  },
+  {
+    "state": "IN",
+    "district": "08",
+    "population": 715129,
+    "median_income": 56889,
+    "college_educated_percentage": 70819
+  },
+  {
+    "state": "MI",
+    "district": "02",
+    "population": 753783,
+    "median_income": 65057,
+    "college_educated_percentage": 94331
+  },
+  {
+    "state": "MI",
+    "district": "10",
+    "population": 723323,
+    "median_income": 71124,
+    "college_educated_percentage": 80658
+  },
+  {
+    "state": "MN",
+    "district": "05",
+    "population": 728368,
+    "median_income": 72686,
+    "college_educated_percentage": 154508
+  },
+  {
+    "state": "MO",
+    "district": "04",
+    "population": 775737,
+    "median_income": 56694,
+    "college_educated_percentage": 82057
+  },
+  {
+    "state": "NC",
+    "district": "12",
+    "population": 895417,
+    "median_income": 66749,
+    "college_educated_percentage": 168381
+  },
+  {
+    "state": "NV",
+    "district": "02",
+    "population": 748896,
+    "median_income": 72977,
+    "college_educated_percentage": 92504
+  },
+  {
+    "state": "RI",
+    "district": "01",
+    "population": 551867,
+    "median_income": 68969,
+    "college_educated_percentage": 80726
+  },
+  {
+    "state": "TX",
+    "district": "34",
+    "population": 712253,
+    "median_income": 44413,
+    "college_educated_percentage": 51302
+  }
+]

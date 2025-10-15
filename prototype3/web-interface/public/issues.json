@@ -1,0 +1,107 @@
+[
+  {
+    "id": 12,
+    "name": "LGBTQ+ Rights",
+    "category": "Civil Rights",
+    "description": "LGBTQ+ protections and equality",
+    "candidate_count": 169
+  },
+  {
+    "id": 13,
+    "name": "Racial Justice",
+    "category": "Civil Rights",
+    "description": "Systemic racism, police reform, and equity",
+    "candidate_count": 0
+  },
+  {
+    "id": 9,
+    "name": "Voting Rights",
+    "category": "Democracy",
+    "description": "Voter access, election security, and gerrymandering",
+    "candidate_count": 169
+  },
+  {
+    "id": 4,
+    "name": "Economic Justice",
+    "category": "Economy",
+    "description": "Wealth inequality, minimum wage, and economic opportunity",
+    "candidate_count": 297
+  },
+  {
+    "id": 10,
+    "name": "Housing Affordability",
+    "category": "Economy",
+    "description": "Affordable housing, rent control, and homelessness",
+    "candidate_count": 0
+  },
+  {
+    "id": 15,
+    "name": "Infrastructure",
+    "category": "Economy",
+    "description": "Roads, bridges, broadband, and public works",
+    "candidate_count": 0
+  },
+  {
+    "id": 11,
+    "name": "Labor Rights",
+    "category": "Economy",
+    "description": "Union rights, worker protections, and fair wages",
+    "candidate_count": 0
+  },
+  {
+    "id": 6,
+    "name": "Education",
+    "category": "Education",
+    "description": "Public education funding, student debt, and education access",
+    "candidate_count": 0
+  },
+  {
+    "id": 1,
+    "name": "Climate Change",
+    "category": "Environment",
+    "description": "Policies related to climate action and environmental protection",
+    "candidate_count": 169
+  },
+  {
+    "id": 2,
+    "name": "Healthcare Access",
+    "category": "Healthcare",
+    "description": "Universal healthcare, insurance reform, and medical costs",
+    "candidate_count": 169
+  },
+  {
+    "id": 7,
+    "name": "Reproductive Rights",
+    "category": "Healthcare",
+    "description": "Abortion access and reproductive healthcare",
+    "candidate_count": 169
+  },
+  {
+    "id": 3,
+    "name": "Immigration Reform",
+    "category": "Immigration",
+    "description": "Border policy, pathways to citizenship, and refugee policy",
+    "candidate_count": 128
+  },
+  {
+    "id": 14,
+    "name": "Foreign Policy",
+    "category": "International",
+    "description": "Military intervention, diplomacy, and international relations",
+    "candidate_count": 128
+  },
+  {
+    "id": 5,
+    "name": "Crime & Safety",
+    "category": "Justice",
+    "description": "Criminal justice reform, policing, and public safety",
+    "candidate_count": 128
+  },
+  {
+    "id": 8,
+    "name": "Gun Control",
+    "category": "Justice",
+    "description": "Gun safety legislation and Second Amendment rights",
+    "candidate_count": 128
+  }
+]
