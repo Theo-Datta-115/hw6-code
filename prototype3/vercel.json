@@ -1,5 +1,18 @@
 {
-  "buildCommand": "cd web-interface && npm install && npm run build",
-  "outputDirectory": "web-interface/out",
-  "installCommand": "cd web-interface && npm install"
+  "version": 2,
+  "builds": [
+    {
+      "src": "web-interface/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "out"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/web-interface/$1"
+    }
+  ]
 }
